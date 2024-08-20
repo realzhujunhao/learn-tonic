@@ -1,0 +1,14 @@
+[workspace]
+members = ["server", "client"]
+resolver = "2"
+
+[workspace.package]
+version = "0.0.1"
+authors = ["Junhao Zhu"]
+description = "Usage of tonic gRPC impl"
+
+[workspace.dependencies]
+tonic = "0"
+prost = "0"
+tonic-build = "0"
+tokio = { version = "1", features = ["full"] }
